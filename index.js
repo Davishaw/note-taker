@@ -27,7 +27,7 @@ function addNote() {
         </div>`
         notesWrapper.appendChild(divNota);
     }else {
-        showErrorMessage('Please add both a title and a note');
+        showErrorMessage('Please add a note');
     } 
     headerInput.value= '';
     bodyInput.value = '';
